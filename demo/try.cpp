@@ -28,6 +28,12 @@ while ( space)
      j = j + 1 ; 
   }
 
+  int l = i - 1  ;
+  while ( l ){
+     cout << l << " ";
+     l = l - 1;
+  }
+
 
   cout << endl ;
   i = i + 1 ; 
