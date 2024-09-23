@@ -18,7 +18,6 @@ while ( i <= n){
 while ( space) 
   {
      cout << "  " ;
-    //  j = j + 1 ;
      space = space - 1 ;
   }
 
@@ -29,18 +28,6 @@ while ( space)
      j = j + 1 ; 
   }
 
-// int wht_space = n;
-// while (wht_space <= n){
-// cout << " " ;
-// wht_space = wht_space + 1 ;
-// }
- 
-int l = i - 1  ;
-  while ( l ){
-     cout << l << " ";
-     l = l - 1;
-  }
-// cout << endl ;
 
   cout << endl ;
   i = i + 1 ; 
