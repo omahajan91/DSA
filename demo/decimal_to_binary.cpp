@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 using namespace std ;
 
 int main (){
@@ -9,15 +10,15 @@ cin >> n ;
 cout << endl ; 
 
 int number = 0 ;
-int place = 1 ;
+int i = 0 ;
 
 while (n!=0){
 
 int bit = n%2 ;
 
-number = number + (bit * place ) ;
+number = number + (bit * pow(10,i) ) ;
 
-place = place * 10 ;
+// place = place * 10 ;
 n = n / 2 ;
 
 
