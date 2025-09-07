@@ -1,42 +1,43 @@
 #include <iostream>
-using namespace std ;
+using namespace std;
 
-int main (){
+int main() {
+    // int n;
+    // cout << "Enter the size of the array: ";
+    // cin >> n;
 
-int i = 1 ;
-int n ;
-cout << "Enter the value of n: "  ;
-cin >> n ;
+    // int arr[n];
+    // cout << "Enter the elements of the array: ";
+    // for (int i = 0; i < n; i++) {
+    //     cin >> arr[i];
+    // }
 
-int play = 1 ;
+    // Insertion Sort Algorithm
+    // for (int i = 1; i < n; i++) {
+    //     int temp = arr[i];
+    //     int j = i - 1;
 
-while ( i <= n){
+    //     for (; j >= 0; j--) {
+    //         if (arr[j] > temp) {
+    //             arr[j + 1] = arr[j];
+    //         } else {
+    //             break; 
+    //         }
+    //     }
+    //     arr[j + 1] = temp; 
+    // }
 
-   int j = 1 ;
-   int space = n - i ;
+    // cout << "Sorted array: ";
+    // for (int i = 0; i < n; i++) {
+    //     cout << arr[i] << " ";
+    // }
+    // cout << endl;
 
-while ( space) 
-  {
-     cout << "  " ;
-     space = space - 1 ;
-  }
+    int a = 1 % 5;
+    int b = 3 % 5;
+    int c = 4 % 5;
 
+    cout << "a: " << a << " "<< b << " "<< c << endl;
 
-   while ( j <= i) 
-  {  
-     cout << j << " " ;
-     j = j + 1 ; 
-  }
-
-  int l = i - 1  ;
-  while ( l ){
-     cout << l << " ";
-     l = l - 1;
-  }
-
-
-  cout << endl ;
-  i = i + 1 ; 
-}
-    return 0 ;
+    return 0;
 }
